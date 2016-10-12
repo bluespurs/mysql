@@ -337,6 +337,34 @@ EOSQL
         @pkginfo.normal['rhel']['2016.03']['5.6']['server_package'] = 'mysql-community-server'
         @pkginfo.normal['rhel']['2016.03']['5.7']['client_package'] = %w(mysql-community-client mysql-community-devel)
         @pkginfo.normal['rhel']['2016.03']['5.7']['server_package'] = 'mysql-community-server'
+
+        @pkginfo.normal['rhel']['2016.09']['5.1']['server_package'] = %w(mysql51 mysql51-devel)
+        @pkginfo.normal['rhel']['2016.09']['5.1']['server_package'] = 'mysql51-server'
+        @pkginfo.normal['rhel']['2016.09']['5.5']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2016.09']['5.5']['server_package'] = 'mysql-community-server'
+        @pkginfo.normal['rhel']['2016.09']['5.6']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2016.09']['5.6']['server_package'] = 'mysql-community-server'
+        @pkginfo.normal['rhel']['2016.09']['5.7']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2016.09']['5.7']['server_package'] = 'mysql-community-server'
+
+        @pkginfo.normal['rhel']['2017.03']['5.1']['server_package'] = %w(mysql51 mysql51-devel)
+        @pkginfo.normal['rhel']['2017.03']['5.1']['server_package'] = 'mysql51-server'
+        @pkginfo.normal['rhel']['2017.03']['5.5']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2017.03']['5.5']['server_package'] = 'mysql-community-server'
+        @pkginfo.normal['rhel']['2017.03']['5.6']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2017.03']['5.6']['server_package'] = 'mysql-community-server'
+        @pkginfo.normal['rhel']['2017.03']['5.7']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2017.03']['5.7']['server_package'] = 'mysql-community-server'
+
+        @pkginfo.normal['rhel']['2017.09']['5.1']['server_package'] = %w(mysql51 mysql51-devel)
+        @pkginfo.normal['rhel']['2017.09']['5.1']['server_package'] = 'mysql51-server'
+        @pkginfo.normal['rhel']['2017.09']['5.5']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2017.09']['5.5']['server_package'] = 'mysql-community-server'
+        @pkginfo.normal['rhel']['2017.09']['5.6']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2017.09']['5.6']['server_package'] = 'mysql-community-server'
+        @pkginfo.normal['rhel']['2017.09']['5.7']['client_package'] = %w(mysql-community-client mysql-community-devel)
+        @pkginfo.normal['rhel']['2017.09']['5.7']['server_package'] = 'mysql-community-server'
+
         @pkginfo.normal['rhel']['5']['5.0']['client_package'] = %w(mysql mysql-devel)
         @pkginfo.normal['rhel']['5']['5.0']['server_package'] = 'mysql-server'
         @pkginfo.normal['rhel']['5']['5.1']['client_package'] = %w(mysql51-mysql)
